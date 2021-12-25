@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body onload="load()">
+    <div class="header">
+        <div id="Solar system" onclick="window.location.reload()" onmouseover="big(this)" onmouseout="small(this)">Solar system</div>
+        <div id="Sun" onclick="change(this)" onmouseover="big(this)" onmouseout="small(this)">Sun</div>
+        <div id="Mercury" onclick="change(this)" onmouseover="big(this)" onmouseout="small(this)">Mercury</div>
+        <div id="Venus" onclick="change(this)" onmouseover="big(this)" onmouseout="small(this)">Venus</div>
+        <div id="Earth" onclick="change(this)" onmouseover="big(this)" onmouseout="small(this)">Earth</div>
+    </div>
+
+    <div class="main">
+        <img src="https://c4.wallpaperflare.com/wallpaper/487/489/80/sci-fi-solar-system-earth-moon-wallpaper-preview.jpg" alt="" id="img" width="350px">
+        <div class="text">
+            <h1 id="txt"> Solar <br> System </h1>
+            <p id="txt1"> The Solar System is the gravitationally bound system of the Sun and the objects that orbit it, either directly or indirectly. Of the objects that orbit the Sun directly, the largest are the eight planets, with the remainder being smaller objects, the dwarf planets and small Solar System bodies.</p>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
